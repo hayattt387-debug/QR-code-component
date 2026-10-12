@@ -1,40 +1,40 @@
- <style> h1{
-        color: brown;
-    }
+ h1 {
+    color: brown;
+}
 
-   #p1{ color:gray;
-    }
+#p1 {
+    color: gray;
+}
 
-   #p2{color: peru;
-    }
-    body{ 
-        background-color: rgb(70, 9, 71);
-    }
-    h2{
-        color: rgb(88, 98, 8);
-    }
+#p2 {
+    color: peru;
+}
 
-    .image-row {
-        display: flex;
-        gap: 20px;
-        align-items: center;
-    }
+body {
+    background-color: rgb(70, 9, 71);
+}
 
-    .img1 {
-        width: 250px;
-        height: auto;
-    }
+h2 {
+    color: rgb(88, 98, 8);
+}
 
-    .img2 {
-        width: 180px;
-        height: auto;
-    }
-    mark{
-        background-color: rgb(21, 184, 43);
-        color: white;
+.image-row {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
 
+.img1 {
+    width: 250px;
+    height: auto;
+}
 
-    }
+.img2 {
+    width: 180px;
+    height: auto;
+}
 
-     </style>
-
+mark {
+    background-color: rgb(21, 184, 43);
+    color: white;
+}

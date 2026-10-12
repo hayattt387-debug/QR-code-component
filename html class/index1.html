@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>iphone website</title>
+    <style>
+        body {
+            margin: 0 ;
+            font-family: Arial, sans-serif;
+            background-image: url(../../Ai-BG.png);
+            background-repeat: no-repeat; 
+            background-position: center;
+            background-size: cover;
+            background-attachment: fixed;
+           
+        }
+
+        #head > div {
+            justify-content: center;
+           align-items: center;
+          
+           
+        }
+        #head a:hover {
+            color: #000;
+        }
+
+        form {
+            width: min(700px, 90%);
+            margin: 40px ;
+            padding: 30px;
+            box-sizing: border-box;
+            border: 1px solid slategrey ;
+            border-radius: 30px;
+            background: rgb(76, 90, 104);
+             
+        }
+       fa-brands{
+
+        color: brown;
+       }
+       
+
+    </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.css"
+        integrity="sha512-x9WwyMYBnlXMNQ6kQ/Lyzu1NqIhLQKL5Oq6xByfXuRj7s9CskyCbLv/1IjqzJmXwFXWr0ov6jBV7Qbc0hh9nHg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+</head>
+<body>
+    <header id="head">
+    <div style="display: flex; align-items: center; gap: 24px; color: rgb(121, 121, 32);">
+           <img src="C:\Users\Administrator\Documents\first project\image\download.png" alt="Apple Logo" style="width: 32px; height: 32px; object-fit: contain;">
+        <nav>
+            <ul
+                style="list-style-type: none; display: flex; gap: 32px; justify-content: flex-start; align-items: center; margin: 0; padding: 0; ">
+                <i class="fa-brands fa-youtube"></i>
+                <li><a href="#">store</a></li>
+                <i class="fa-brands fa-apple"></i>
+                <li><a href="#">mac</a></li>
+                <li><a href="#">ipad</a></li>
+                <li><a href="#">iphone</a></li>
+                <li><a href="#">watch</a></li>
+
+
+            </ul>
+         
+        </nav>
+
+
+       </div>
+    </header>
+
+    <br><br>
+    <section class="s1">
+        <iframe
+            width="70%"
+            height="300"
+            src="https://www.youtube.com/embed/mV40u-vaBo8?si=amWlhIeKBeWisC9S"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen
+            style="display: block; max-width: 100%; margin: 0 auto; border-radius: 12px;">
+        </iframe>
+    </section>
+<footer>
+
+  <form action="">
+    <label for="name">name:</label><br>
+    <input type="text" placeholder="Enter your name" id="name" name="name" required ><br><br>
+    <label for="email">email:</label>
+    <input type="email" placeholder="Enter your email" id="email" name="email" required><br><br>
+     <label for="number">choose number:</label>
+    <input type="number" id="number" name="number" min="0" max="100" required><br><br>
+    <label for="message">message:</label><br>
+    <textarea id="message" placeholder="Enter your message" name="message" rows="4" cols="50"></textarea><br><br>
+    <label for="password">password:</label>
+    <input type="password" placeholder="Enter your password" id="password" name="password" required><br><br>
+    <label for="gender">gender:</label>
+    <input type="radio" placeholder="Enter your gender" id="gender" name="gender" required>
+    <label for="femal">femal</label>
+    <input type="radio" placeholder="Enter your gender" id="male" name="gender" required>
+     <label for="male">male</label><br>
+<label for="country">country:</label>
+    <select id="country" name="country" required>
+        <option value="">Select your country</option>
+        <option value="usa">USA</option>
+        <option value="uk">UK</option>
+        <option value="canada">Canada</option>
+        <option value="australia">Australia</option>
+    </select><br><br>
+    <label for="dob">date of birth:</label>
+    <input type="date" id="dob" name="dob" required><br><br>
+    <label for="cv">upload file:</label>
+    <input type="file" id="cv" name="cv" required><br><br>
+    <label for="color">choose color:</label>
+    <input type="color" id="color" name="color" required><br><br>
+    <label for="range">choose range:</label>
+    <input type="range" id="range" name="range" min="0" max="100" required><br><br>
+    <label for="number">choose number:</label>
+    <input type="tel" id="number" name="number" min="0" max="100" required><br><br>
+
+    <label for="url">choose url:</label>
+    <input type="url" id="url" name="url" required><br><br>
+    <label for="search">choose search:</label>
+    <input type="search" id="search" name="search" required><br><br>
+    <label for="time">choose time:</label>
+    <input type="time" id="time" name="time" required><br><br>
+    <label for="week">choose week:</label>
+    <input type="week" id="week" name="week" required><br><br>
+    <label for="month">choose month:</label>
+    <input type="month" id="month" name="month" required><br><br>
+    <label for="checkbox">choose checkbox:</label>
+    
+    
+    
+        <!-- < <label for="number">choose number:</label>
+    <input type="number" id="number" name="number" min="0" max="100" required><br><br>option value="">Select an option</option> 
+    <select id="checkbox" name="checkbox" required>
+        
+        option value="option1">js</option>
+        <option value="option2">python</option>
+    </select>-->
+        
+    
+    <input type="checkbox" id="checkbox" name="checkbox" required>
+    <br><br>
+    <input type="button" value="click me">
+    <input type="reset" value="Reset">
+    <input type="submit" value="Submit">
+
+  </form>
+
+</footer>
+   
+
+</body>
+</html>
