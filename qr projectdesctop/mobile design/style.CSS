@@ -5,21 +5,22 @@ body {
     justify-content: center;
     align-items: center;
     background-color: hsl(212, 45%, 89%);
-width: 1440px;
-height: 960px;
+    font-family: outfit, sans-serif;
+    box-sizing: border-box;
+    
 }
 
 .main {
-    width: 300px;
+   max-width: 320px;
     background: white;
     border-radius: 20px;
     padding: 18px;
     box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
-   
+   margin: 20px auto;
 }
 
 img {
-    width: 300px;
+    width: 100%;
     height: auto;
     display: block;
     border-radius: 12px;
@@ -29,16 +30,22 @@ h2 {
     color: hsl(218, 44%, 22%);
     font-weight: 700;
     margin: 18px 0 12px;
-    font-size: 22px;
+    font-size: 18px;
     text-align: center;
-    font-family: outfit;
+    width: 100%;
 }
 
 h3 {
     color: hsl(216, 15%, 48%);
     font-weight: 400;
-    font-size: 15px;
+    font-size: 14px;
     text-align: center;
-    font-family: outfit;
+    width: 100%;
 }
-    
+
+    @media screen and (max-width: 420px) {
+    .main {
+        width: 95%;
+        word-wrap: break-word;
+    }
+}
