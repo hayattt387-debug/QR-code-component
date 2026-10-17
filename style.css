@@ -11,8 +11,11 @@ body {
     align-items: center;
     background-color: hsl(212, 45%, 89%);
     width: 100%;
-    font-family:outfit, sans-serif;
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+ 
 }
+
 
 .main {
     
